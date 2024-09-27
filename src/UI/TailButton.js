@@ -1,5 +1,5 @@
 
-
+ 
 export default function TailButton({cation, color,handleClick}) {
   const btColor={
     'zinc': 'bg-zinc-500',
