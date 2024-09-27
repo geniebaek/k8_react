@@ -1,11 +1,11 @@
-
 import './App.css';
+import { IoHome } from "react-icons/io5";
 // import Hello from './01/Hello'; //import Hello.js
 //import MyClock from './02/MyClock'; //import MyClock.js
-import { IoHome } from "react-icons/io5";
 // import Mydiv1 from './03/Mydiv1';
-import Mylist from './04/Mylist';
-
+// import Mylist from './04/Mylist';
+// import Lotto from './05/Lotto';
+import FoodMain from './06/FoodMain';
 function App() {
   return (
     <div className="w-full xl:w-10/20 h-screen mx-auto 
@@ -18,10 +18,12 @@ function App() {
        
       </header>
       <main className='w-full grow
-                       flex flex-col justify-center items-center
+                       flex flex-col items-center
                        overflow-y-auto'>
        {/* <Mydiv1/> */}
-       <Mylist/>
+       {/* <Mylist/> */}
+       {/* <Lotto/> */}
+       <FoodMain/>
       </main>
       <footer className='w-full h-20
                          flex justify-center items-center
