@@ -2,8 +2,8 @@ import img from './alarm-clock.png';
 function MyClockImage(){
    return(
 
-    <div className='img1'>
-      <img src={img} className="MyClockImg" alt="img1" />
+    <div className='w-full flex justify-center items-center'>
+      <img src={img}  alt="시계" className="h-3/5" />
       
     </div>
    
