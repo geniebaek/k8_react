@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "거제 딸내미",
+      "author": "지니"
+    },
+    {
+      "id": "2",
+      "title": "정관 소녀",
+      "author": "예진"
+    },
+    {
+      "id": "3",
+      "title": "부싼 핫걸",
+      "author": "은빈"
+    },
+    {
+      "id": "4",
+      "title": "삼천포 머스마",
+      "author": "준영"
+    },
+    {
+      "id": "5",
+      "title": "부산 싸나이",
+      "author": "준우"
+    },
+    {
+      "id": "8db2",
+      "title": "안산 똥구멍 ",
+      "author": "김태수"
+    },
+    {
+      "id": "87ce",
+      "title": "백자매 막내공쥬",
+      "author": "지니"
+    },
+    {
+      "id": "027d",
+      "title": "백자매 기존쎄 ",
+      "author": "미니"
+    },
+    {
+      "id": "2893",
+      "title": "백자매 황소고집",
+      "author": "혀니"
+    },
+    {
+      "id": "24c7",
+      "title": "우리집 말괄량이",
+      "author": "백영군"
+    },
+    {
+      "id": "5ac5",
+      "title": "우리집 사랑둥이",
+      "author": "김선희"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "This is a comment1.",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "This is a comment2.",
+      "postId": 1
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 
  
-export default function TailButton({cation, color,handleClick}) {
+export default function TailButton({caption, color,handleClick, size}) {
   const btColor={
     'zinc': 'bg-zinc-500',
-    'gray': 'bg-gray-600',
-    'slate': 'bg-slate-700'
+    'gray': 'bg-gray-500',
+    'slate': 'bg-slate-500'
   }
   const btColorHover={
-    'zinc': 'hover:bg-zinc-200',
+    'zinc': 'hover:bg-zinc-400',
     'gray': 'hover:bg-gray-300',
     'slate': 'hover:bg-slate-400',
   }
@@ -17,9 +17,10 @@ export default function TailButton({cation, color,handleClick}) {
                        ${btColor[color]} text-white
                        ${btColorHover[color]} font-bold
                         rounded-md
+                       ${size ? size :""}
                         `}
                 onClick={handleClick}>
-      {cation}
+      {caption}
     </button>
   )
 }
